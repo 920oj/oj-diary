@@ -3,3 +3,14 @@ languageCode = 'ja-jp'
 title = 'OJ Diary'
 
 theme = 'tale'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+    weight = 0
+
+[Params]
+css = ["css/custom.css"]
